@@ -1,0 +1,78 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+MERGED from [:lib_jsbridge] D:\Android\Mine\8_Jsbridge\JsBridge\lib_jsbridge\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\79eef028e225089464610f2c38900aa3\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-v4:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\a1a0ae84131c6e065f4a33e53e1ca79a\AndroidManifest.xml:14:4-17:12
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:2:5-32
+	android:versionName
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:1-23:12
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:6:5-21:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\79eef028e225089464610f2c38900aa3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\79eef028e225089464610f2c38900aa3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\a1a0ae84131c6e065f4a33e53e1ca79a\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\a1a0ae84131c6e065f4a33e53e1ca79a\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.demo.jsbridge.MainActivity
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:11:9-20:20
+	android:screenOrientation
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:14:13-49
+	android:label
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:12:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+MERGED from [:lib_jsbridge] D:\Android\Mine\8_Jsbridge\JsBridge\lib_jsbridge\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_jsbridge] D:\Android\Mine\8_Jsbridge\JsBridge\lib_jsbridge\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\79eef028e225089464610f2c38900aa3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\79eef028e225089464610f2c38900aa3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\a1a0ae84131c6e065f4a33e53e1ca79a\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] D:\Android\sdk\studio_gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\a1a0ae84131c6e065f4a33e53e1ca79a\AndroidManifest.xml:15:5-42
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Mine\8_Jsbridge\JsBridge\app\src\main\AndroidManifest.xml

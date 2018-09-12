@@ -1,0 +1,4 @@
+#Wed Sep 12 15:02:07 CST 2018
+base.0=D\:\\Android\\Mine\\8_Jsbridge\\JsBridge\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
