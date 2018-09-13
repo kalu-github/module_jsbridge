@@ -14,8 +14,7 @@
 ```
 js调java方法
 
-step1:java
-
+// step1:java
 BridgeWebView.setJsCallJava("方法名字111", new OnJsCallJavaChangeListener() {
 
             /**
@@ -32,11 +31,32 @@ BridgeWebView.setJsCallJava("方法名字111", new OnJsCallJavaChangeListener() 
             }
         });
 
-step2:js
+// step2:js
 bridge.jsCallJava('方法名字111', {'name': 'js => JsCallJava'}, function(response) {
 
 			    <!-- Js打印方法 -->
 			    log(response)
 			})
+
+```
+```
+java调js方法
+
+// step1:js
+bridge.javaCallJs('JavaCallJs', function(data, responseCallback) {
+
+			log(data)
+			var responseData = { 'name':'js => JavaCallJs' }
+			responseCallback(responseData)
+		})
+
+// step2:js
+BridgeWebView.setJavaCallJs("JavaCallJs", "{初始化成功}", new OnJavaCallJsChangeListener() {
+
+            @Override
+            public void onJavaCallJs(String jsData) {
+                Toast.makeText(getApplicationContext(), "Java原生方法: " + jsData, Toast.LENGTH_SHORT).show();
+            }
+        });
 
 ```
